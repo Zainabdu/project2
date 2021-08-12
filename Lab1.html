@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form action="register.php" method="post">
+		<label for="fname">NAME:</label>
+		<input type="Text" id="fname" 
+		 name="fname" placeholder="Enter Your Name" maxlength="25" required="NAME">
+		 <br>
+		 <br>
+		 <label for="Email">Email:</label>
+		 <input type="Email" id="Email" name="Email" placeholder="Test@Example.com" required="Email" autofocus="Email">
+<br>
+		 <br>
+		 <label for="Paswod">PASSWORD:</label>
+		 <input type="Password"  id="Paswd" name="Paswd" placeholder="Password" maxlength="6" required="PASSWORD"><br>
+		 <br>
+	    <label for="GENDER">CATEGORY:</label>
+		<select id="GENDER" name="GENDER">
+			<option value="STUDENT">STUDENT</option>
+			<option value="EMPLOYEE">EMPLOYEE</option>
+			<option value="FREELANCER" selected="FREELANCER">FREELANCER</option>
+		</select>
+		<br>
+		<br>
+		<label for="DATE">EVENT DATE:</label>
+	    <input type="DATE" name="DATE" required="EVENT DATE">
+	    <p>SELECT YOUR TICKETS:</p>
+	    <input type="RADIO" id="1TICKET" name="1TICKET" value="1TICKET">
+	    <label for="1TICKET">1TICKET</label>
+	    <input type="RADIO" id="2TICKET" name="2TICKET" value="2TICKET"checked>
+	     <label for="2TICKET">2TICKET</label>
+        <input type="RADIO" id="3TICKET" name="3TICKET" value="3TICKET" >
+        <label for="3TICKET">3TICKET</label>
+        <br>
+        <br>
+        <label for="PAYMENT">PAYMENT:</label>
+        <input type="CheckBox" id="ONLINE PAYMENT" name="ONLINE PAYMENT" value=" ONLINE PAYMENT" checked="online payment">
+        <label for="online payment">Online Payment</label >
+        <br>
+        <br>
+        <label for="NOTES">NOTES:</label>
+        <br>
+        <textarea id="NOTES" name="NOTES" rows="4" cols="40" placeholder="Type Your Comments">
+        </textarea>
+        <br>
+        <br>
+        <input type="Submit" name="Submit" value="Submit">
+        <br>
+        <br>
+        <input type="Reset" name="Reset" value="Reset">
+
+	</form>
+
+
+</body>
